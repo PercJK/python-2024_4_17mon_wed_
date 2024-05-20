@@ -1,5 +1,7 @@
 import random
 import pyinputplus as pyip
+
+
 while True:
     min = 1
     max = 100
