@@ -1,6 +1,5 @@
 import random
 import pyinputplus as pyip
-
 while True:
     min = 1
     max = 100
@@ -26,5 +25,5 @@ while True:
     play_again = pyip.inputYesNo("還要繼續嗎?(y,n)")
     if play_again == 'no':
         break
-
+    
 print("遊戲結束")
