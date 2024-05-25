@@ -27,3 +27,13 @@ status:str = get_status(bmi)
 
 print(f'\n{name}, 您的BMI: {bmi:.2f}')
 print(f'您的體重: {status}')
+
+name:str = input('請輸入姓名: ')
+height:float = pyip.inputFloat('請輸入身高(120~230)(cm): ', min=120, max=230)
+weight:float = pyip.inputFloat('請輸入體重(40~170)(kg): ', min=40, max=170)
+
+bmi:float = calc_bmi(height, weight)
+status:str = get_status(bmi)
+
+print(f'\n{name}, 您的BMI: {bmi:.2f}')
+print(f'您的體重: {status}')
