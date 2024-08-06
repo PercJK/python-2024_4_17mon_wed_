@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "<hi>Hello, Pyhon!</hi>"
+    return "<h1>Hello, Pyhon!</h1>"
